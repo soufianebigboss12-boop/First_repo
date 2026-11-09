@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="نور المسلم، رفيقك اليومي للقرآن والأذكار والأدعية">
+  <title>نور المسلم</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">☪</div>
+    <h1>نور المسلم</h1>
+    <p>نورٌ لقلبك وطمأنينة لروحك</p>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <p>السلام عليكم ورحمة الله وبركاته</p>
+      <h2>أهلاً بك في نور المسلم</h2>
+      <p>اجعل لسانك رطباً بذكر الله</p>
+    </section>
+
+    <section class="menu">
+      <button onclick="showSection('quran')">
+        📖 القرآن الكريم
+      </button>
+      <button onclick="showSection('morning')">
+        🌅 أذكار الصباح
+      </button>
+      <button onclick="showSection('evening')">
+        🌇 أذكار المساء
+      </button>
+      <button onclick="showSection('sleep')">
+        🌙 أذكار النوم
+      </button>
+      <button onclick="showSection('hadith')">
+        📚 الأحاديث النبوية
+      </button>
+      <button onclick="showSection('dua')">
+        🤲 الأدعية
+      </button>
+      <button onclick="showSection('tasbih')">
+        📿 السبحة الإلكترونية
+      </button>
+    </section>
+
+    <section id="content" class="content">
+      <h2>✨ ابدأ رحلتك الإيمانية</h2>
+      <p>اختر أحد الأقسام من الأعلى.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>نور المسلم © 2026</p>
+    <p>اللهم اجعل هذا العمل خالصاً لوجهك الكريم</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
