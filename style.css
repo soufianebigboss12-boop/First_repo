@@ -1,0 +1,112 @@
+here
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #080808;
+  color: #ffffff;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.header {
+  padding: 30px 15px;
+  background: linear-gradient(145deg, #202020, #050505);
+  border-bottom: 1px solid #777777;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.header p {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+main {
+  max-width: 650px;
+  margin: auto;
+  padding: 18px;
+}
+
+.welcome {
+  padding: 22px 12px;
+  margin-bottom: 22px;
+  border: 1px solid #777777;
+  border-radius: 16px;
+  background: #181818;
+}
+
+.welcome h2 {
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.menu button {
+  background: #191919;
+  color: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 13px;
+  padding: 18px 8px;
+  min-height: 75px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.menu button:active {
+  background: #444444;
+}
+
+.content {
+  margin-top: 22px;
+  padding: 22px 12px;
+  min-height: 130px;
+  border-radius: 15px;
+  background: #181818;
+  border: 1px solid #777777;
+}
+
+.content h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin: 8px 0;
+  color: #dddddd;
+}
+
+footer {
+  margin-top: 25px;
+  padding: 20px 10px;
+  color: #bbbbbb;
+  border-top: 1px solid #555555;
+  font-size: 12px;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #333333;
+}
