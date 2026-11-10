@@ -1,0 +1,14 @@
+here
+{
+  "name": "نور المسلم",
+  "short_name": "نور المسلم",
+  "description": "رفيقك اليومي للقرآن والأذكار والأدعية",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "ar",
+  "dir": "rtl"
+}
